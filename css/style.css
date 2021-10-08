@@ -1,0 +1,35 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+        margin: 0;
+        font-family: sans-serif, arial, roboto;
+        font-size: 14px !important;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: #ffffff;
+        color: #000000;
+        margin: 0;
+        padding: 0;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #4D4D4D;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    ul {
+        list-style-type: none;
+    }

@@ -1,0 +1,209 @@
+.wrap-slider {
+    height: 710px;
+    margin-top: 70px;
+    background: url('../images/background-slider.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slider {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slider .item-slider {
+    max-height: 3900px;
+    width: fit-content;
+    height: 100% !important;
+    margin: 0 15px;
+    background-color: #ffffff;
+}
+
+.slider .item-slider .item-slider-date {
+    width: 60px;
+    height: 60px;
+    margin-top: 24px;
+    margin-left: 20px;
+    position: absolute;
+    top: 0px;
+}
+
+.slick-item-comment {
+    height: 55px;
+    line-height: 55px;
+    border-top: 1px solid #ededed;
+}
+
+.slick-item-info {
+    padding: 16px;
+}
+
+.slick-item-info h4 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.slick-item-info h4 a {
+    font-size: 16px;
+    color: #000;
+    font-family: "Montserrat Regular";
+}
+
+.slick-item-info h4 a:hover {
+    color: #8262b5;
+}
+
+.slick-item-info .slick-item-info-description {
+    font-family: "OpenSans";
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 1.3px;
+}
+
+.slick-item-comment span a {
+    color: #c0c0c0;
+}
+
+.slick-item-comment span a svg {
+    fill: #c0c0c0;
+}
+
+.slick-item-comment span a:hover {
+    color: #000;
+}
+
+.slick-item-comment span a:hover svg {
+    fill: #000
+}
+
+.slick-item-comment span {
+    padding: 20px;
+}
+
+.slick-item-comment a svg:first-child {
+    width: 14px;
+}
+
+.slick-item-comment a svg#svg-heart {
+    width: 18px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: -18px;
+}
+
+.slick-prev.slick-arrow {
+    line-height: 390px;
+    display: none !important;
+    left: 0px;
+    top: 0px;
+}
+
+.slick-next.slick-arrow {
+    display: none !important;
+    line-height: 390px;
+    top: 0px;
+}
+
+.item-slider img {
+    max-width: 400px !important;
+    height: 205px;
+}
+
+.header-slider {
+    padding-top: 77px;
+    text-align: center;
+    padding-bottom: 48px;
+    font-family: "Montserrat Bold";
+    position: relative;
+}
+
+.header-slider p {
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #8262b5;
+    letter-spacing: 5.8px;
+}
+
+.header-slider h3 {
+    font-size: 24px;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-family: "Montserrat Bold";
+}
+
+.header-slider .underline {
+    width: 50px;
+    height: 0px;
+    margin: 0 auto;
+    border-top: 1px solid#8262b5;
+}
+
+.slick-dots {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #8262b5;
+    opacity: 10.75;
+    width: 10px;
+    height: 10px;
+    font-size: 50px !important;
+}
+
+.slick-dots li button {
+    width: 0;
+    height: 0;
+    border: unset;
+}
+
+.slick-dots li button:hover {
+    cursor: pointer;
+}
+
+.slick-dots li button:before {
+    font-size: 35px !important;
+}
+
+.slick-dots li {
+    position: relative;
+    margin: 0 6px;
+}
+
+.slick-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "\2022";
+    width: 20px;
+    height: 20px;
+    font-family: "slick";
+    font-size: 6px;
+    line-height: 20px;
+    text-align: center;
+    color: black;
+    opacity: 0.25;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1140px) {
+    .container-slider {
+        padding: 10px;
+    }
+}

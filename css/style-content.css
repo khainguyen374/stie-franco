@@ -1,0 +1,266 @@
+    .content {
+        width: 1140px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    .content .content-banner {
+        display: flex;
+        width: 100%;
+        max-height: 560px;
+        justify-content: space-between;
+        height: fit-content;
+    }
+    
+    .content .content-banner img {
+        object-fit: cover;
+    }
+    
+    .content .content-banner .content-banner-1 {
+        width: 100%;
+        max-width: 750px;
+        position: relative;
+    }
+    
+    .content .content-banner .content-banner-2 {
+        /* width: 34%; */
+        text-align: end;
+        position: relative;
+        display: grid;
+        align-content: space-between;
+        max-width: 360px;
+    }
+    
+    .content .content-banner .content-banner-2 img {
+        width: 100%;
+        height: 100%;
+    }
+    /* .content .content-banner .content-banner-2 img:last-child {
+        padding: 0 0 0px 24px;
+    } */
+    
+    .wrap-content-banner-2-info {
+        margin-bottom: 25px;
+        font-family: "Montserrat Regular";
+    }
+    
+    .wrap-content-banner-2-info img {
+        max-height: 200px;
+        height: 100%;
+    }
+    
+    .wrap-content-banner-2-info img {
+        max-height: 330px;
+    }
+    
+    .content .content-banner .content-banner-1 .content-banner-1-info {
+        position: absolute;
+        top: 150px;
+        left: 24px;
+        transform: translate(100%, 100%);
+        text-align: end;
+    }
+    
+    .content .content-banner .content-banner-1 .content-banner-1-info h3 {
+        font-family: Pacifico;
+        font-size: 30px;
+        font-weight: 900;
+        margin-bottom: 6px;
+    }
+    
+    .content .content-banner .shop-now {
+        border: 1px solid #8262b5;
+        border-radius: unset;
+        background: #8262b5;
+        font-family: "Montserrat Regular";
+        width: 111px;
+        height: 40px;
+        padding: 8px;
+        font-size: 14px !important;
+        color: #e5e2eb;
+    }
+    
+    .content .content-banner .shop-now:hover {
+        cursor: pointer;
+    }
+    
+    .content-banner-2-info,
+    .content-banner-3-info {
+        font-family: "Montserrat Regular";
+        position: absolute;
+        text-align: left;
+    }
+    
+    .content-banner-3-info .shop-now {
+        margin-top: 12px;
+    }
+    
+    .content-banner-2-info {
+        top: 30px;
+        transform: translate(30%, 85%);
+        letter-spacing: 1.5px;
+    }
+    
+    .content-banner-2-info p,
+    .content-banner-3-info p {
+        margin: 2px 2px 1px 0px;
+        color: #616161;
+        font-size: 16px;
+        letter-spacing: 3.5px;
+    }
+    
+    .content-banner-2-info h3,
+    .content-banner-3-info h3 {
+        margin-top: -1px;
+        font-size: 20px;
+        letter-spacing: 0.8px;
+    }
+    
+    .content-banner-3-info h3.bold {
+        font-weight: 900;
+        color: #000000 !important;
+        margin-bottom: 4px;
+    }
+    
+    .wrap-content-banner-3-info {
+        position: relative;
+    }
+    
+    .wrap-content-banner-3-info img {
+        max-height: 330px;
+        height: 100%;
+    }
+    
+    .content-banner-3-info {
+        top: 30px;
+        transform: translate(32%, 92%);
+    }
+    
+    .content-banner-3-info button {
+        margin-top: 10px;
+    }
+    /* feafured items */
+    
+    .content-featured {
+        margin-top: 78px;
+    }
+    
+    .content-featured .content-featured-heading p {
+        font-size: 12px;
+        font-family: "Montserrat Bold";
+        font-weight: 700;
+        color: #8262b5;
+    }
+    
+    .content-featured .content-featured-heading h2 {
+        font-weight: 700;
+        margin-top: 4px;
+        font-family: "Montserrat Bold";
+        letter-spacing: 3.3px;
+        font-size: 24px;
+    }
+    
+    .content-featured .content-featured-heading .content-featured-heading-span {
+        width: 50px;
+        padding-top: 2px;
+        height: 0px;
+        margin-top: 20px;
+        border-bottom: 1px solid;
+        color: #8262b5;
+    }
+    /* product*/
+    
+    .content-featured-product {
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        display: flex;
+    }
+    
+    .content-featured-product:last-child {
+        margin-top: 22px;
+    }
+    
+    .product {
+        width: 25% !important;
+        margin: 20px 15px 0px 15px;
+        justify-content: space-between;
+        font-size: 14px !important;
+    }
+    
+    .product:first-child {
+        margin-left: 0px;
+    }
+    
+    .product:last-child {
+        margin-right: 0px;
+    }
+    
+    .product .wrap-image img {
+        height: 320px !important;
+        object-fit: cover;
+    }
+    
+    .product .wrap-image {
+        position: relative;
+    }
+    
+    .product .wrap-image button {
+        position: absolute;
+        bottom: 8px;
+        left: 4px;
+        background-color: #ffffff;
+        border: 1px solid#ffffff;
+        padding: 12px 12px 8px 18px;
+    }
+    
+    .product .wrap-image button:hover {
+        cursor: pointer;
+    }
+    
+    .product .wrap-image button:hover {
+        color: #8262b5;
+    }
+    
+    .product .info-product .product-name {
+        font-family: 'Montserrat Relugar', 'OpenSans Bold', 'FontAwesome', 'OpenSans';
+        font-weight: 900;
+        margin: 14px 0px 12px;
+        letter-spacing: 1px;
+    }
+    
+    .product .info-product .product-name a:hover {
+        color: #8262b5;
+    }
+    
+    .product .info-product .product-price .price-old {
+        text-decoration: line-through;
+        color: #bdbdbd !important;
+    }
+    
+    .product .info-product .product-price .price-sale {
+        color: #8262b5;
+        margin-left: 2px;
+        font-weight: 900;
+    }
+    
+    .product .info-product .product-price {
+        margin: 6px 0px;
+        letter-spacing: 0.5px;
+    }
+    
+    .product-star {
+        letter-spacing: -1.5px;
+    }
+    
+    .star-active {
+        color: #facc47;
+    }
+    
+    .star-deactive {
+        color: #696565;
+    }
+    
+    .fa-star {
+        font-size: 10px;
+    }

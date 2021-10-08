@@ -1,0 +1,179 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(".icon-search").click(function() {
+        $(".form-search").removeClass("d-none");
+    });
+
+    $("body").click(function(e) {
+        if (e.target.className === "icon-search") {
+            $("form-search").removeClass("d-none");
+        }
+        $(document).mouseup(function(e) {
+            if ($(e.target).closest(".form-search").length === 0 && e.target.className !== "icon-search") {
+                $(".form-search").addClass("d-none");
+            }
+        });
+
+    });
+    $(".icon-shopping-cart").click(function() {
+        $(".my-cart").removeClass("d-none");
+    });
+
+    $("body").click(function(e) {
+        if (e.target.className === "icon-shopping-cart") {
+            $("my-cart").removeClass("d-none");
+        }
+        $(document).mouseup(function(e) {
+            if ($(e.target).closest(".my-cart").length === 0 || e.target.className == "icon-shopping-cart") {
+                $(".my-cart").addClass("d-none");
+            }
+        });
+
+    });
+    $(".icon-dropdown").click(function() {
+        $(".dropdown").removeClass("d-none");
+    });
+
+    $("body").click(function(e) {
+        $(document).mouseup(function(e) {
+            if ($(e.target).closest(".dropdown").length === 0 || $(e.target).className("icon-dropdown").length === 0) {
+                $(".dropdown").addClass("d-none");
+            }
+        });
+
+    });
+</script>
+<div class="header">
+    <div class="header-information">
+        <div class="header-information-welcome">
+            <span>
+                <?xml version="1.0" ?><svg style="margin-left:-5px;fill: rgb(85, 85, 85);" width="18px" height="12px"
+                    data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                    <title />
+                    <path
+                        d="M98.78,0H29.22A7.21,7.21,0,0,0,22,7.19V120.8a7.08,7.08,0,0,0,4.42,6.63,7.22,7.22,0,0,0,7.87-1.5L63.14,97.59a1.23,1.23,0,0,1,1.72,0l28.86,28.33a7.21,7.21,0,0,0,7.87,1.5A7.08,7.08,0,0,0,106,120.8V7.19A7.21,7.21,0,0,0,98.78,0ZM100,120.8a1.14,1.14,0,0,1-.74,1.09,1.17,1.17,0,0,1-1.34-.25h0L69.06,93.31a7.26,7.26,0,0,0-10.13,0L30.08,121.64a1.18,1.18,0,0,1-1.34.25A1.14,1.14,0,0,1,28,120.8V7.19A1.21,1.21,0,0,1,29.22,6H98.78A1.21,1.21,0,0,1,100,7.19Z" />
+                </svg>
+            </span>
+            <span> Welcome to Franco - an e-Commerce PSD Template!</span>
+        </div>
+        <div class="header-information-box">
+            <div class="header-information-shop-setting">
+                <a href="#">
+                    <span><i class="fa fa-cog"></i></span>
+                    <span> Shop Setting</span>
+                </a>
+            </div>
+            <div class="header-information-member-login">
+                <a href="#">
+                    <span><i class="fa fa-lock"></i></span>
+                    <span> Member Login</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="header-menu">
+        <div class="header-menu-logo">
+            <a href="#"><img src="images/logo.jpg" alt="logo"></a>
+        </div>
+        <div class="header-menu-nav">
+            <ul class="header-menu-nav-ul">
+                <li class="home"><a href="#">Home</a></li>
+                <li class="women"><a href="#">Women</a></li>
+                <li class="men"><a href="#">Men</a></li>
+                <li class="about"><a href="#">About Us</a></li>
+                <li class="blog"><a href="#">Blog</a></li>
+                <li class="collections"><a href="#">Collections</a></li>
+                <li class="contact"><a href="#">Contact</a></li>
+                <span class="header-menu-nav-search">
+                    <a href="#" class="icon-search"> <i class="fa fa-search"></i></a>
+                    <form action="" class="form-search d-none">
+                        <input type="text" class="input-search" placeholder="Search"></li>
+                        <button type="submit" class="btn btn-search"><i class="fa fa-search"></i></button>
+                    </form>
+                </span>
+            </ul>
+        </div>
+        <div class="dropdown-menu">
+            <a href="#" class="icon-dropdown"><i class=" fa fa-align-justify "></i></a>
+            <div class="dropdown d-none">
+                <ul>
+                    <li class="home "><a href="# ">Home</a></li>
+                    <li class="women "><a href="# ">Women</a></li>
+                    <li class="men "><a href="# ">Men</a></li>
+                    <li class="about "><a href="# ">About Us</a></li>
+                    <li class="blog "><a href="# ">Blog</a></li>
+                    <li class="collections "><a href="# ">Collections</a></li>
+                    <li class="contact "><a href="# ">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-menu-cart ">
+            <span>
+                <a href="# ">
+                    <svg height="30px" width="30px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M340.8,98.4c50.7,0,91.9,41.3,91.9,92.3c0,26.2-10.9,49.8-28.3,66.6L256,407.1L105,254.6c-15.8-16.6-25.6-39.1-25.6-63.9  c0-51,41.1-92.3,91.9-92.3c38.2,0,70.9,23.4,84.8,56.8C269.8,121.9,302.6,98.4,340.8,98.4 M340.8,83C307,83,276,98.8,256,124.8  c-20-26-51-41.8-84.8-41.8C112.1,83,64,131.3,64,190.7c0,27.9,10.6,54.4,29.9,74.6L245.1,418l10.9,11l10.9-11l148.3-149.8  c21-20.3,32.8-47.9,32.8-77.5C448,131.3,399.9,83,340.8,83L340.8,83z"/></svg> 
+                </a>
+            </span>
+            <span class="shopping-cart">
+                <a href="#" class="icon-shopping-cart">
+                    <svg enable-background="new 0 0 50 50" height="30px" id="Layer_1" version="1.1" viewBox="0 0 50 50" width="30px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect fill="none" height="50" width="50"/><circle cx="39" cy="46" fill="none" r="3" stroke="#000000" stroke-miterlimit="10" stroke-width="2"/><circle cx="26" cy="46" fill="none" r="3" stroke="#000000" stroke-miterlimit="10" stroke-width="2"/><circle cx="2" cy="4" r="2"/><path d="  M41,43c0,0-12.668,0-15.291,0c-3.42,0-3.922-1.744-4.523-4.025L13.191,6.696C12.472,4.273,11.459,3,8.664,3c0,0-4.754,0-6.664,0" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.9868"/><polyline fill="none" points="  16,16 47,16 39.809,35 20.609,35 " stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.9868"/></svg>
+                            </a>
+                <div class="my-cart d-none">
+                    <ul>
+                        <li><a href="#"><img class="image" src="images/background-slider.jpg" alt="" srcset=""><p class="number">1</p><p class="name"><b>product</b></p></a></li>
+                        <li><a href="#"><img class="image" src="images/background-slider.jpg" alt="" srcset=""><p class="number">1</p><p class="name"><b>product</b></p></a></li>
+                        <li><a href="#"><img class="image" src="images/background-slider.jpg" alt="" srcset=""><p class="number">1</p><p class="name"><b>product</b></p></a></li>
+                        <li><a href="#"><img class="image" src="images/background-slider.jpg" alt="" srcset=""><p class="number">1</p><p class="name"><b>product</b></p></a></li>
+                        <li><a href="#"><img class="image" src="images/background-slider.jpg" alt="" srcset=""><p class="number">1</p><p class="name"><b>product</b></p></a></li>
+                        <li><a href="#"><img class="image" src="images/background-slider.jpg" alt="" srcset=""><p class="number">1</p><p class="name"><b>product</b></p></a></li>
+                        <li><a href="#"><img class="image" src="images/background-slider.jpg" alt="" srcset=""><p class="number">1</p><p class="name"><b>product</b></p></a></li>
+                        <li><a href="#"><img class="image" src="images/background-slider.jpg" alt="" srcset=""><p class="number">1</p><p class="name"><b>product</b></p></a></li>
+                        <li><a href="#"><img class="image" src="images/background-slider.jpg" alt="" srcset=""><p class="number">1</p><p class="name"><b>product</b></p></a></li>
+                        <li><a href="#"><img class="image" src="images/background-slider.jpg" alt="" srcset=""><p class="number">1</p><p class="name"><b>product</b></p></a></li>
+                        <li><a href="#"><img class="image" src="images/background-slider.jpg" alt="" srcset=""><p class="number">1</p><p class="name"><b>product</b></p></a></li>
+                        <li><a href="#"><img class="image" src="images/background-slider.jpg" alt="" srcset=""><p class="number">1</p><p class="name"><b>product</b></p></a></li>
+                        <li><a href="#"><img class="image" src="images/background-slider.jpg" alt="" srcset=""><p class="number">1</p><p class="name"><b>product</b></p></a></li>
+                        <li><a href="#"><img class="image" src="images/background-slider.jpg" alt="" srcset=""><p class="number">1</p><p class="name"><b>product</b></p></a></li>
+                        <li><a href="#"><img class="image" src="images/background-slider.jpg" alt="" srcset=""><p class="number">1</p><p class="name"><b>product</b></p></a></li>
+                    </ul>
+                </div>
+            </span>
+            <!-- <?xml version="1.0" ?><svg style="margin-left:-5px;fill: rgb(85, 85, 85);" width="18px" height="12px" data-name="Livello 1" id="Livello_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+                    <title />
+                    <path
+                        d="M98.78,0H29.22A7.21,7.21,0,0,0,22,7.19V120.8a7.08,7.08,0,0,0,4.42,6.63,7.22,7.22,0,0,0,7.87-1.5L63.14,97.59a1.23,1.23,0,0,1,1.72,0l28.86,28.33a7.21,7.21,0,0,0,7.87,1.5A7.08,7.08,0,0,0,106,120.8V7.19A7.21,7.21,0,0,0,98.78,0ZM100,120.8a1.14,1.14,0,0,1-.74,1.09,1.17,1.17,0,0,1-1.34-.25h0L69.06,93.31a7.26,7.26,0,0,0-10.13,0L30.08,121.64a1.18,1.18,0,0,1-1.34.25A1.14,1.14,0,0,1,28,120.8V7.19A1.21,1.21,0,0,1,29.22,6H98.78A1.21,1.21,0,0,1,100,7.19Z" />
+                </svg>
+            <span>
+                <a href="# "><svg xmlns="http://www.w3.org/2000/svg " height="30px " viewBox="0 0 24 24 "
+                        width="30px " fill="#000000 ">
+                        <path d="M0 0h24v24H0V0z
+                " fill="none " />
+                        <path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7
+                22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z " />
+                    </svg>
+                </a>
+            </span> -->
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        $(".icon-shopping-cart").click(function() {
+            $(".my-cart").slideToggle();
+        });
+    });
+    // $(".icon-shopping-cart").click(function() {
+    //     $(".my-cart").removeClass("d-none");
+    // });
+
+    // $("body").click(function(e) {
+    //     if (e.target.className === "icon-shopping-cart") {
+    //         $("my-cart").removeClass("d-none");
+    //     }
+    //     $(document).mouseup(function(e) {
+    //         if ($(e.target).closest(".my-cart").length === 0 && e.target.className !== "icon-shopping-cart") {
+    //             $(".my-cart").addClass("d-none");
+    //         }
+    //     });
+
+    // });
+</script>
