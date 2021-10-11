@@ -368,6 +368,12 @@
     .header-menu .header-menu-logo {
         text-align: center;
     }
+    .header-menu .header-menu-cart span:first-child {
+        padding-right: 5px;
+    }
+    .header-information-welcome {
+        letter-spacing: -1px;
+    }
 }
 
 @media (max-width:320px) {
@@ -381,10 +387,10 @@
     .header-information-welcome {
         margin: 0 auto;
         word-wrap: normal;
-        letter-spacing: -0.2px;
+        letter-spacing: -1px;
     }
     .content-footer {
-         padding:0px;
+        padding: 0px;
     }
     .icon-dropdown {
         left: 10px;
@@ -393,17 +399,17 @@
     }
     .dropdown-menu .dropdown {
         left: -55px;
-        right:unset;
-        top:50px;
+        right: unset;
+        top: 50px;
     }
-    .shopping-cart{
+    .shopping-cart {
         position: absolute;
         right: 10px;
     }
     .header-menu-cart span:first-child svg {
         position: absolute;
         right: 20px;
-        transform: translate(-22px,23px);
+        transform: translate(-22px, 23px);
     }
     .header-menu-nav {
         position: absolute;
@@ -412,5 +418,8 @@
     .shopping-cart .my-cart {
         right: 0px;
         top: 50px;
+    }
+    .header-menu-nav .header-menu-nav-ul {
+        padding: 8px 0;
     }
 }
