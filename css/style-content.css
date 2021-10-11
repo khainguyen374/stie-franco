@@ -41,7 +41,8 @@
     
     .wrap-content-banner-2-info {
         margin-bottom: 25px;
-        font-family: "Montserrat Regular";
+        font-family: 'Montserrat';
+        font-weight: 400;
     }
     
     .wrap-content-banner-2-info img {
@@ -72,7 +73,7 @@
         border: 1px solid #8262b5;
         border-radius: unset;
         background: #8262b5;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-weight: 400;
         width: 111px;
         height: 40px;
@@ -87,7 +88,7 @@
     
     .content-banner-2-info,
     .content-banner-3-info {
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-weight: 400;
         position: absolute;
         text-align: left;
@@ -149,7 +150,7 @@
     
     .content-featured .content-featured-heading p {
         font-size: 12px;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-weight: 700;
         color: #8262b5;
     }
@@ -215,7 +216,7 @@
         background-color: #ffffff;
         border: 1px solid#ffffff;
         padding: 12px 12px 8px 18px;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         font-weight: 400;
     }
     
@@ -228,7 +229,7 @@
     }
     
     .product .info-product .product-name {
-        font-family: Montserrat, OpenSans Bold, FontAwesome, OpenSans;
+        font-family: 'Montserrat', 'OpenSans Bold', 'FontAwesome', 'Open Sans';
         font-weight: 900;
         margin: 14px 0px 12px;
         letter-spacing: 1px;
