@@ -157,7 +157,8 @@
     .content-featured .content-featured-heading h2 {
         font-weight: 700;
         margin-top: 4px;
-        font-family: "Montserrat Bold";
+        font-family: 'Montserrat';
+        font-weight: 700;
         letter-spacing: 3.3px;
         font-size: 24px;
     }
