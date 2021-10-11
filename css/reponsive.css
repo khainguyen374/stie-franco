@@ -272,6 +272,11 @@
     .col-content-footer-heading {
         padding-top: 10px;
     }
+    .col-content-footer-info-navigation ul li,
+    .col-content-footer-info ul li,
+    .col-content-footer-info-about {
+        text-align: left;
+    }
 }
 
 
@@ -399,7 +404,7 @@
         letter-spacing: -1px;
     }
     .content-footer {
-        padding: 0px;
+        padding: 0 8px;
     }
     .icon-dropdown {
         left: 10px;
