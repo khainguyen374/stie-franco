@@ -354,6 +354,9 @@
     .col-content-footer-info ul li {
         padding: 0;
     }
+    .header-information-welcome {
+        letter-spacing: -1px;
+    }
 }
 
 @media(max-width: 375px) {
@@ -370,9 +373,6 @@
     }
     .header-menu .header-menu-cart span:first-child {
         padding-right: 5px;
-    }
-    .header-information-welcome {
-        letter-spacing: -1px;
     }
 }
 
