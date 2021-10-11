@@ -1,7 +1,8 @@
 /* info header */
 
 .header-information {
-    font-family: 'FontAwesome', 'OpenSans';
+    font-family: 'FontAwesome', 'Open Sans';
+    font-weight: 400;
     font-size: 14px;
     height: 46px;
     color: #525252;
@@ -58,7 +59,7 @@
 }
 
 .header-menu-nav .header-menu-nav-ul {
-    font-family: "Montserrat Bold", "Font Awesome";
+    font-family: Montserrat, Font Awesome;
     font-weight: bold;
     text-transform: uppercase;
     display: flex;
@@ -156,7 +157,7 @@
     min-width: 150px;
     background: rgb(238 238 238);
     z-index: 1;
-    top: 50x;
+    top: 50px;
     right: 182px;
 }
 
