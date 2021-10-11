@@ -277,6 +277,9 @@
     .col-content-footer-info-about {
         text-align: left;
     }
+    .slick-dots {
+        margin-top: 0px;
+    }
 }
 
 
@@ -314,6 +317,9 @@
         margin: 0 auto;
     }
     /*end reponsive footer*/
+    .slick-dots {
+        margin-top: 20px;
+    }
 }
 
 @media(max-width: 480px) {
