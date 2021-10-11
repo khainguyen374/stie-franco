@@ -357,6 +357,15 @@
     .header-information-welcome {
         letter-spacing: -1px;
     }
+    .header-menu .header-menu-cart span:first-child {
+        padding-right: 10px;
+    }
+    .icon-dropdown {
+        transform: translateX( -80px);
+    }
+    .header-menu-nav {
+        right: 70px;
+    }
 }
 
 @media(max-width: 375px) {
