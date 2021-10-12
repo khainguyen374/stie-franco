@@ -33,7 +33,7 @@
         font-weight: 600;
     }
     .header-menu .header-menu-cart {
-        line-height: 90px;
+        line-height: 98px;
     }
     .header-menu .header-menu-cart svg {
         width: 18px;
@@ -357,6 +357,9 @@
     }
     .header-menu-nav {
         right: 70px;
+    }
+    .shopping-cart .my-cart {
+        right: 10px;
     }
 }
 
