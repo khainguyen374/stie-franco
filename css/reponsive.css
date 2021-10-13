@@ -363,6 +363,8 @@
     }
 }
 
+@media(max-width: 425px) {}
+
 @media(max-width: 375px) {
     .content .content-banner .content-banner-1 .content-banner-1-info {
         transform: translate(30%, -50%);
